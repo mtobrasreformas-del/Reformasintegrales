@@ -11,3 +11,12 @@ Necesito una reforma: ${mensaje}`;
 
   window.open(url, "_blank");
 }
+.beneficios {
+  text-align: left;
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.beneficios li {
+  margin-bottom: 8px;
+}
