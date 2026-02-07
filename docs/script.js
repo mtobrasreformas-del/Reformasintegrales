@@ -28,3 +28,6 @@ Necesito una reforma: ${mensaje}`;
 h1, h2 {
   color: #1f3c88;
 }
+.whatsapp-fijo {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
