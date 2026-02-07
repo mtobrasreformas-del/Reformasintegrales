@@ -43,3 +43,12 @@ button {
   width: 100%;
   border-radius: 8px;
 }
+body {
+  background: #e9ecef;
+  font-family: Arial;
+}
+
+.card {
+  background: white;
+  border-top: 6px solid #1f3c88;
+}
