@@ -25,3 +25,6 @@ Necesito una reforma: ${mensaje}`;
   color: #777;
   margin-top: 20px;
 }
+h1, h2 {
+  color: #1f3c88;
+}
