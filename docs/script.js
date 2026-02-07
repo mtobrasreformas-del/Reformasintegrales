@@ -6,7 +6,7 @@ function enviarWhatsApp() {
   var texto = `Hola, soy ${nombre}. Mi teléfono es ${telefono}. 
 Necesito una reforma: ${mensaje}`;
 
-  var numero = "34600123456"; // CAMBIA TU NÚMERO
+  var numero = "34673360927"; // CAMBIA TU NÚMERO
   var url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(texto);
 
   window.open(url, "_blank");
