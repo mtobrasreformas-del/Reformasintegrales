@@ -20,3 +20,8 @@ Necesito una reforma: ${mensaje}`;
 .beneficios li {
   margin-bottom: 8px;
 }
+.legal {
+  font-size: 12px;
+  color: #777;
+  margin-top: 20px;
+}
