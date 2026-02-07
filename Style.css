@@ -16,26 +16,23 @@ button {
   width: 100%;
   font-size: 16px;
   margin-top: 10px;
-}.galeria {
+  
+}
+.galeria {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
   margin: 15px 0;
 }
+.galeria img {
+  width: 100%;
+  border-radius: 8px;
 
-.galeria img {
-  width: 100%;
-  border-radius: 8px;
-}
-.galeria img {
-  width: 100%;
-  border-radius: 8px;
 }
 body {
   background: #e9ecef;
   font-family: Arial;
 }
-
 .card {
   background: white;
   border-top: 6px solid #1f3c88;
@@ -73,9 +70,25 @@ body {
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
-}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2; /* gris claro */
+}
+
+.fondo {
+  background-color: #e0e0e0; /* gris */
+  padding: 40px;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+}
+
+.columna {
+  background-color: #ffffff; /* blanco */
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px; /* bordes suaves */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra ligera */
 }
